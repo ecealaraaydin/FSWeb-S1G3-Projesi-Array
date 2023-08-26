@@ -282,7 +282,7 @@ const bolgeselTatlar = [
 // Benim elimde 81 elemanlı array var. 0 - 80 arasında vermesine ihtiyacım var 
 // Math.floor(Math.random() * 80)
 
-/*  // buradan çıkmadı sonuç 
+/*  // çözüm 1 
 function rastgeleTatlar(tatlar1, tatlar2, tatlar3, tatlar4){
   const randomTatlar = [];
 
@@ -294,7 +294,7 @@ function rastgeleTatlar(tatlar1, tatlar2, tatlar3, tatlar4){
     let rastgeleTat = tumTatlar[rastgele];
     
     if(randomTatlar.includes(rastgeleTat)){
-
+      i--;
     } else {
       randomTatlar.push(rastgeleTat);
     }
@@ -303,6 +303,8 @@ function rastgeleTatlar(tatlar1, tatlar2, tatlar3, tatlar4){
   return randomTatlar
 }
  */
+
+// çözüm 2
 
 function rastgeleTatlar(tatlar1, tatlar2, tatlar3, tatlar4){
   const randomTatlar = [];
